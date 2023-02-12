@@ -1,0 +1,122 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+/* Variaveis */
+:root{
+    --green: #32F5C8;
+    --background-b: #013243;
+    --text-p: #A9BDC6;
+    --font1: 'sen' , sans-serif;
+    --font2: 'inter' , sans-serif;
+}
+
+/* Css reset */
+body, header, ul, li, a, h1,h2,h3,p,span,button,main{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+main{
+    background-color: var(--background-b);
+    position: relative;
+    min-height: 100vh;
+    overflow: auto;
+    z-index: 1;
+    padding: 50px 150px;
+}
+
+#logo-meeet img{
+    margin-bottom:  100px;
+}
+
+
+
+#titles-icons h1{
+    font-family: var(--font1);
+    color: var(--green);
+    font-size: 12rem;
+    line-height: 12rem;
+    position: relative;
+}
+
+#p-button {
+    margin-top: 50px;
+}
+
+#p-button p {
+    font-family: var(--font2);
+    color: var(--text-p);
+    font-size: 1.87rem;
+}
+#p-button button{
+    width: 375px;
+    height: 90px;
+    border-radius: 5px;
+    border: 0;
+    background-color: var(--green);
+    margin-top: 30px;
+    color: var(--background-b);
+    font-family: var(--font2);
+    font-size: 1.87rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#tt-p{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+
+}
+#tt-p p{
+    font-family: var(--font2);
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--text-p);
+    margin-left: 10px;
+}
+#avatar {
+    z-index: -1;
+    position: absolute;
+}
+#avatar img{
+    position: relative;
+     margin: 0;
+     padding: 0;
+}
+.img1{
+    top: 169px;
+    left: 1279px;
+   
+}
+.img2{
+    top: -142px;
+    left: 1051px;
+}
+.img3{
+    top: -132px;
+    left: -403px;    
+}
+.img4{
+    top: 528px;
+    left: 648px; 
+}
+.img5{
+    top: -153px;
+    left: 304px;
+}
+.img6{
+    top: 206px;
+    left: -63px;
+    width: 150px;
+
+}
+
+
+#destaque{
+    position: relative;
+    z-index: -2;
+}
